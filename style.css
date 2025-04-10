@@ -59,9 +59,9 @@ main{
 #sobre{
     display: flex;
     margin: 0 auto;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(14, 67, 101);
-    height: 85vh;
+    height: 86vh;
     align-items: center;
 
 }
@@ -78,11 +78,13 @@ main{
 
 #sobre>article h2{
     font-weight: light;
-    align-self: flex-start;
+    justify-self: flex-start;
+    font-weight: 550;
 }
 
 #imgsobre{
     width: 40%;
+    justify-self: flex-end;
 }
 
 #imgsobre img{
@@ -122,7 +124,7 @@ footer{
     justify-content: center;
     background-color: rgb(24, 74, 106);
     color: #fff;
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-family: "Poppins";
 }
 
